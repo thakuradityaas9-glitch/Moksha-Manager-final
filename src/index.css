@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@theme{--color-paper:#f6f2ea;--color-forest:#1f3d2f;--color-teal:#3f7a74;--color-amber:#a8691a;--color-ink:#1b2a23;--color-line:#d9d2c3;--font-serif:Georgia,'Times New Roman',serif}
+body{background:var(--color-paper);color:var(--color-ink);font-family:system-ui,sans-serif}
+button{cursor:pointer}button:focus-visible,input:focus-visible{outline:2px solid var(--color-teal);outline-offset:2px}
+
+html,button,input{touch-action:manipulation}button{user-select:none;-webkit-tap-highlight-color:transparent}
+
+.mapwrap{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;overscroll-behavior:contain;touch-action:none}
